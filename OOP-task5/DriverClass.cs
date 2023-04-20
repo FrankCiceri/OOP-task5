@@ -11,12 +11,12 @@ namespace OOPtask5
 
         public static void Main(string[] args) {
             //I made the constructor so it receives the coefficients from the greater to the less exponent 
-            // Bassically I am doing  – 12x^7  + 5x^5 + 4x^2 - 3 
-            Poly poly1 = new Poly(-12, 0, 5, 0, 0, 0, 4,-3);
+            // Bassically I am doing  – 12x^7  + 5x^5 + 4x - 3 
+            Poly poly1 = new Poly(-12, 0, 5, 0, 0, 4, 0,-3);
             Console.WriteLine(poly1);
 
-
-            Poly poly2 = new Poly(-1, 0, 5, 0, 0, 1, 4, -3);
+            // Here I am doing  – x^7  + 5x^5 + x^2 + 4x - 3 
+            Poly poly2 = new Poly(-1, 0, 5, 0, 1, 4, 0, -3);
             Console.WriteLine(poly2);
 
             Console.WriteLine(poly1+poly2);
